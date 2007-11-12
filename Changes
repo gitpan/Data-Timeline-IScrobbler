@@ -1,0 +1,10 @@
+---
+global:
+  name: Data-Timeline-IScrobbler
+releases:
+  - author: 'Marcel Gruenauer <marcel@cpan.org>'
+    changes:
+      - original version
+    date: 2007-11-12T20:45:17Z
+    tags: []
+    version: 0.01

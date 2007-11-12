@@ -1,0 +1,27 @@
+This is the Perl distribution Data-Timeline-IScrobbler.
+
+INSTALLATION
+
+Data-Timeline-IScrobbler installation is straightforward. If your CPAN shell is
+set up, you should just be able to do
+
+    % cpan Data::Timeline::IScrobbler
+
+Download it, unpack it, then build it as per the usual:
+
+    % perl Makefile.PL
+    % make && make test
+
+Then install it:
+
+    % make install
+
+DOCUMENTATION
+
+Data-Timeline-IScrobbler documentation is available as in POD. So you can do:
+
+    % perldoc Data::Timeline::IScrobbler
+
+to read the documentation online with your favorite pager.
+
+Marcel Gruenauer
