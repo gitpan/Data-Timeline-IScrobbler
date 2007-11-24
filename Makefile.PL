@@ -5,15 +5,10 @@ name 'Data-Timeline-IScrobbler';
 all_from 'lib/Data/Timeline/IScrobbler.pm';
 perl_version '5.006';
 
-requires 'Data::Timeline';
+requires 'Data::Timeline' => '0.02';
+requires 'DateTime::Format::DateParse';
 
 build_requires 'Test::More' => '0.70';
-
-# feature 'Generated documentation',
-#     - default => 1,
-#     'Pod::Generated' => '0.02';
-
-auto_install;
 
 process_templates(
     first_year => 2007,
@@ -23,5 +18,6 @@ process_templates(
 );
 
 use_standard_tests(without => 'pod_coverage');
+auto_install;
 auto_include;
 WriteAll;

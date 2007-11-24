@@ -4,6 +4,19 @@ global:
 releases:
   - author: 'Marcel Gruenauer <marcel@cpan.org>'
     changes:
+      - 'Makefile.PL: moved auto_install call to after use_standard_tests call'
+      - '.shipit: added Twitter step'
+      - 'Makefile.PL: removed comment'
+      - updated MANIFEST
+      - 'Makefile.PL: added DateTime::Format::DateParse requirement'
+      - updated t/perlcriticrc
+      - 'Makefile.PL: now requires v0.02 of Data::Timeline'
+    date: 2007-11-24T17:06:40Z
+    tags:
+      - BUGFIX
+    version: 0.02
+  - author: 'Marcel Gruenauer <marcel@cpan.org>'
+    changes:
       - original version
     date: 2007-11-12T20:45:17Z
     tags: []
